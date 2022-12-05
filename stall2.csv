@@ -1,0 +1,15 @@
+addi,R5,R0,2
+addi,R1,R0,3
+be,R5,R1,4
+addi,R8,R0,2
+addi,R9,R0,2
+addi,R10,R0,2
+addi,R11,R0,2
+addi,R12,R0,2
+addi,R13,R0,2
+HALT
+HALT
+HALT
+HALT
+HALT
+# This should have 3 stalls and only R1,R5,R12 and R13 should increase.

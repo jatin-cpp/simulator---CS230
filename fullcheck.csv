@@ -1,0 +1,17 @@
+addi,R9,R0,0
+addi,R10,R0,12
+addi,R0,R0,0 
+addi,R0,R0,0 
+addi,R0,R0,0 
+lw,R5,R9
+lw,R1,R10
+addi,R11,R0,8
+addi,R5,R5,10
+addi,R0,R0,0
+addi,R0,R0,0
+addi,R0,R0,0
+HALT
+HALT
+HALT
+HALT
+HALT
